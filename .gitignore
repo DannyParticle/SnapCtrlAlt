@@ -1,0 +1,18 @@
+# 运行时产物（不要提交）
+__pycache__/
+*.py[cod]
+config.json
+_tray.ico
+
+# 打包产物
+dist/
+dist-build/
+installer/
+build/
+*.spec.bak
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

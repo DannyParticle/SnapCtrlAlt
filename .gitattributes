@@ -1,0 +1,11 @@
+# 归一化换行符，避免 Windows 上 CRLF 抖动
+* text=auto eol=lf
+
+# 批处理必须 CRLF
+*.bat text eol=crlf
+
+# 二进制
+*.png binary
+*.ico binary
+*.exe binary
+*.zip binary
