@@ -37,11 +37,15 @@ QQ / TIM 开着的时候，优先把截图交给 QQ；QQ 不在，就用本地�
 
 **免安装（推荐先试这个）**
 
-下载 `SnapCtrlAlt-portable.exe`，双击即用。托盘图标出现后按 `Ctrl+Alt+D`。
+从 [Releases](https://github.com/DannyParticle/SnapCtrlAlt/releases/latest) 下载 `SnapCtrlAlt-portable.exe`，双击即用。托盘图标出现后按 `Ctrl+Alt+D`。
 
 **安装版**
 
-运行 `SnapCtrlAlt-Setup-*.exe`。不需要管理员权限；可选开机自启。
+从 [Releases](https://github.com/DannyParticle/SnapCtrlAlt/releases/latest) 下载 `SnapCtrlAlt-Setup-*.exe`。不需要管理员权限；可选开机自启。
+
+**诊断版**
+
+`SnapCtrlAlt-selftest.exe --selftest` 不弹界面，做基础自检，退出码 0 为通过。
 
 **从源码跑**
 
